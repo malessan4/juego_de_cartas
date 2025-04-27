@@ -13,6 +13,16 @@ class Mazo:
             s = s + " "*i + str(self.cartas[i]) + "\n"
         return s
     
+    def mezclar(self):
+        import random
+        nCartas = len(self.cartas)
+        for i in range(nCartas):
+            j = random.randrange(i, nCartas)
+            self.cartas[i], self.cartas[j] = self.cartas[j], self.cartas[i]
+        
+    
 mazo = Mazo()
-print(mazo)
+mazo.mezclar
+print(mazo.mezclar)
+
 

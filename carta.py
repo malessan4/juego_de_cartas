@@ -1,5 +1,9 @@
 class Carta:
     listaDePalos = ['Treboles', 'Diamantes', 'Corazones', 'Picas']
+# Treboles = 0
+# Diamentas = 1
+# Corazonez = 2
+# Picas = 3
     
     listaDeValores = ['nada', 'As', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Sota', 'Reina', 'Rey']
     
