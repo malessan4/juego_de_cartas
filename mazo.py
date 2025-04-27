@@ -22,7 +22,7 @@ class Mazo:
         
     
 mazo = Mazo()
-mazo.mezclar
-print(mazo.mezclar)
+mazo.mezclar()
+print(mazo)
 
 
